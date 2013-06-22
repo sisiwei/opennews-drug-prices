@@ -1,1 +1,1202 @@
-[{"generic_price": "As Of", "brand_price": "Brand", "generic_price_asof": "Generic", "brand_price_asof": "", "id": 0, "quantity": "Quantity"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 1, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 2, "quantity": "30"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 3, "quantity": "4"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 4, "quantity": "60"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 5, "quantity": "75 ML"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 6, "quantity": "4"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 7, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 8, "quantity": "90"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 9, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 10, "quantity": "20"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 11, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 12, "quantity": "100 ML"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 13, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 14, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 15, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 16, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 17, "quantity": "30"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 18, "quantity": "30"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 19, "quantity": "7"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 20, "quantity": "6"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 21, "quantity": "15 ML"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 22, "quantity": "30"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 23, "quantity": "1"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 24, "quantity": "60"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 25, "quantity": "60"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 26, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 27, "quantity": "28"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 28, "quantity": "56"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 29, "quantity": "6"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 30, "quantity": "20"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 31, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 32, "quantity": "90"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 33, "quantity": "90"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 34, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 35, "quantity": "15 GRAM"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 36, "quantity": "14.7 GRAM"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 37, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 38, "quantity": "30"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 39, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 40, "quantity": "30"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 41, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 42, "quantity": "90"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 43, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 44, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 45, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 46, "quantity": "30"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 47, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 48, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 49, "quantity": "30"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 50, "quantity": "12 GRAM"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 51, "quantity": "1"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 52, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 53, "quantity": "16 GRAM"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 54, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 55, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 56, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 57, "quantity": "90"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 58, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 59, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 60, "quantity": "30"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 61, "quantity": "5"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 62, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 63, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 64, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 65, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 66, "quantity": "30 GRAM"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 67, "quantity": "90"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 68, "quantity": "60"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 69, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 70, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 71, "quantity": "30"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 72, "quantity": "5"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 73, "quantity": "2.5 ML"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 74, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 75, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 76, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 77, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 78, "quantity": "30"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 79, "quantity": "28"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 80, "quantity": "30"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 81, "quantity": "120"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 82, "quantity": "60"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 83, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 84, "quantity": "60"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 85, "quantity": "60"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 86, "quantity": "60"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 87, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 88, "quantity": "60"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 89, "quantity": "20"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 90, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 91, "quantity": "22 GRAM"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 92, "quantity": "60"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 93, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 94, "quantity": "60"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 95, "quantity": "17 GRAM"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 96, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 97, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 98, "quantity": "14"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 99, "quantity": "5"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 100, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 101, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 102, "quantity": "28"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 103, "quantity": "90"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 104, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 105, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 106, "quantity": "40"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 107, "quantity": "90"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 108, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 109, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 110, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 111, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 112, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 113, "quantity": "30"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 114, "quantity": "30"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 115, "quantity": "6.7 GRAM"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 116, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 117, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 118, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 119, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 120, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 121, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 122, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 123, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 124, "quantity": "30"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 125, "quantity": "30"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 126, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 127, "quantity": "20"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 128, "quantity": "9"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 129, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 130, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 131, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 132, "quantity": "20"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 133, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 134, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 135, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 136, "quantity": "28"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 137, "quantity": "30"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 138, "quantity": "30"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 139, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 140, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 141, "quantity": "30"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 142, "quantity": "18 GRAM"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 143, "quantity": "6"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 144, "quantity": "8"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 145, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 146, "quantity": "30"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 147, "quantity": "28"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 148, "quantity": "30"}, {"generic_price": "N/A", "brand_price": "N/A", "generic_price_asof": "N/A", "brand_price_asof": "N/A", "id": 149, "quantity": "30"}, {"generic_price": "No Generic", "brand_price": "N/A", "generic_price_asof": "No Generic Date", "brand_price_asof": "N/A", "id": 150, "quantity": "30"}]
+[
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 1,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 2,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 3,
+    "quantity": "4"
+  },
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 4,
+    "quantity": "60"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 5,
+    "quantity": "75 ML"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 6,
+    "quantity": "4"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 7,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 8,
+    "quantity": "90"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 9,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 10,
+    "quantity": "20"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 11,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 12,
+    "quantity": "100 ML"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 13,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 14,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 15,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 16,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 17,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 18,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 19,
+    "quantity": "7"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 20,
+    "quantity": "6"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 21,
+    "quantity": "15 ML"
+  },
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 22,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 23,
+    "quantity": "1"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 24,
+    "quantity": "60"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 25,
+    "quantity": "60"
+  },
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 26,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 27,
+    "quantity": "28"
+  },
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 28,
+    "quantity": "56"
+  },
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 29,
+    "quantity": "6"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 30,
+    "quantity": "20"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 31,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 32,
+    "quantity": "90"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 33,
+    "quantity": "90"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 34,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 35,
+    "quantity": "15 GRAM"
+  },
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 36,
+    "quantity": "14.7 GRAM"
+  },
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 37,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 38,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 39,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 40,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 41,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 42,
+    "quantity": "90"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 43,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 44,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 45,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 46,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 47,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 48,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 49,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 50,
+    "quantity": "12 GRAM"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 51,
+    "quantity": "1"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 52,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 53,
+    "quantity": "16 GRAM"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 54,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 55,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 56,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 57,
+    "quantity": "90"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 58,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 59,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 60,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 61,
+    "quantity": "5"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 62,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 63,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 64,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 65,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 66,
+    "quantity": "30 GRAM"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 67,
+    "quantity": "90"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 68,
+    "quantity": "60"
+  },
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 69,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 70,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 71,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 72,
+    "quantity": "5"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 73,
+    "quantity": "2.5 ML"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 74,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 75,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 76,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 77,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 78,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 79,
+    "quantity": "28"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 80,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 81,
+    "quantity": "120"
+  },
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 82,
+    "quantity": "60"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 83,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 84,
+    "quantity": "60"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 85,
+    "quantity": "60"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 86,
+    "quantity": "60"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 87,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 88,
+    "quantity": "60"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 89,
+    "quantity": "20"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 90,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 91,
+    "quantity": "22 GRAM"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 92,
+    "quantity": "60"
+  },
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 93,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 94,
+    "quantity": "60"
+  },
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 95,
+    "quantity": "17 GRAM"
+  },
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 96,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 97,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 98,
+    "quantity": "14"
+  },
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 99,
+    "quantity": "5"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 100,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 101,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 102,
+    "quantity": "28"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 103,
+    "quantity": "90"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 104,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 105,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 106,
+    "quantity": "40"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 107,
+    "quantity": "90"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 108,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 109,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 110,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 111,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 112,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 113,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 114,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 115,
+    "quantity": "6.7 GRAM"
+  },
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 116,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 117,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 118,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 119,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 120,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 121,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 122,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 123,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 124,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 125,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 126,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 127,
+    "quantity": "20"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 128,
+    "quantity": "9"
+  },
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 129,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 130,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 131,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 132,
+    "quantity": "20"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 133,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 134,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 135,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 136,
+    "quantity": "28"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 137,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 138,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 139,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 140,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 141,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 142,
+    "quantity": "18 GRAM"
+  },
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 143,
+    "quantity": "6"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 144,
+    "quantity": "8"
+  },
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 145,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 146,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 147,
+    "quantity": "28"
+  },
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 148,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "N/A",
+    "brand_price": "N/A",
+    "generic_price_asof": "N/A",
+    "brand_price_asof": "N/A",
+    "id": 149,
+    "quantity": "30"
+  },
+  {
+    "generic_price": "No Generic",
+    "brand_price": "N/A",
+    "generic_price_asof": "No Generic Date",
+    "brand_price_asof": "N/A",
+    "id": 150,
+    "quantity": "30"
+  }
+]
