@@ -1,150 +1,602 @@
-[{"id":1,"drugName":"ABILIFY 10MG TAB"},
-{"id":2,"drugName":"ACETAMINOPHEN WITH CODEINE 30MG TAB - Tylenol with codeine"},
-{"id":3,"drugName":"ACTONEL 35MG TAB"},
-{"id":4,"drugName":"ADVAIR DISKUS 250/50 INH"},
-{"id":5,"drugName":"ALBUTEROL 0.083% INHAL SOLN - Proventil"},
-{"id":6,"drugName":"ALENDRONATE 70MG TAB - Fosamax"},
-{"id":7,"drugName":"ALLOPURINOL 100MG TAB - Zyloprim"},
-{"id":8,"drugName":"ALPRAZOLAM 0.5MG TAB - Xanax"},
-{"id":9,"drugName":"AMLODIPINE 10MG TAB - Norvasc"},
-{"id":10,"drugName":"AMOX TR-K CLV 875-125 MG TAB - Augmentin"},
-{"id":11,"drugName":"AMOXICILLIN 500MG CAP - Amoxil"},
-{"id":12,"drugName":"AMOXICILLIN 400MG/5ML SUSP - Amoxil"},
-{"id":13,"drugName":"AMPHETAMINE MIX SALT XR 10MG CAP - Adderall xr"},
-{"id":14,"drugName":"ATENOLOL 25MG TAB - Tenormin"},
-{"id":15,"drugName":"ATENOLOL 50MG TAB - Tenormin"},
-{"id":16,"drugName":"ATORVASTATIN 10MG TAB - Lipitor"},
-{"id":17,"drugName":"ATORVASTATIN 20MG TAB - Lipitor"},
-{"id":18,"drugName":"AVAPRO 150MG TAB"},
-{"id":19,"drugName":"AVELOX 400MG TAB"},
-{"id":20,"drugName":"AZITHROMYCIN 250MG TAB - Zithromycin"},
-{"id":21,"drugName":"AZITHROMYCIN 100MG/5ML SUSP - Zithromycin"},
-{"id":22,"drugName":"BENICAR 20MG TAB"},
-{"id":23,"drugName":"BONIVA 150MG TAB"},
-{"id":24,"drugName":"BUPROPION SR 150MG TAB - Wellbutrin sr"},
-{"id":25,"drugName":"CARVEDILOL 6.25MG TAB - Coreg"},
-{"id":26,"drugName":"CELEBREX 200MG CAP"},
-{"id":27,"drugName":"CEPHALEXIN 500MG CAP - Keflex"},
-{"id":28,"drugName":"CHANTIX 1MG TAB"},
-{"id":29,"drugName":"CIALIS 10MG TAB"},
-{"id":30,"drugName":"CIPROFLOXACIN 500MG TAB - Cipro"},
-{"id":31,"drugName":"CITALOPRAM 20MG TAB - Celexa"},
-{"id":32,"drugName":"CLONAZEPAM 1MG TAB - Klonopin"},
-{"id":33,"drugName":"CLONIDINE 0.1MG TAB - Catapres"},
-{"id":34,"drugName":"CLOPIDOGREL 75MG TAB - Plavix"},
-{"id":35,"drugName":"CLOTRIMAZOLE/BETAM CREAM - Lotrisone"},
-{"id":36,"drugName":"COMBIVENT INHALER"},
-{"id":37,"drugName":"CRESTOR 10MG TAB"},
-{"id":38,"drugName":"CYCLOBENZAPRINE 10MG TAB - Flexeril"},
-{"id":39,"drugName":"CYMBALTA 30MG CAP"},
-{"id":40,"drugName":"DIGOXIN 0.125MG TAB - Lanoxin"},
-{"id":41,"drugName":"DIOVAN 80MG CAP"},
-{"id":42,"drugName":"DIVALPROEX 500MG EC TAB - Depakote"},
-{"id":43,"drugName":"DONEPEZIL 5MG TAB - Aricept"},
-{"id":44,"drugName":"DOXYCYCLINE 100MG CAP - Vibramycin"},
-{"id":45,"drugName":"ENALAPRIL 10MG TAB - Vasotec"},
-{"id":46,"drugName":"ESCITALOPRAM 10MG TAB - Lexapro"},
-{"id":47,"drugName":"EVISTA 60MG TAB"},
-{"id":48,"drugName":"FEXOFENADINE 180MG TAB - Allegra"},
-{"id":49,"drugName":"FINASTERIDE 5MG TAB - Proscar"},
-{"id":50,"drugName":"FLOVENT HFA 110MCG INHALER"},
-{"id":51,"drugName":"FLUCONAZOLE 150MG TAB - Diflucan"},
-{"id":52,"drugName":"FLUOXETINE 20MG CAP - Prozac"},
-{"id":53,"drugName":"FLUTICASONE 50MCG NASAL - Flonase"},
-{"id":54,"drugName":"FOLIC ACID 1MG TAB"},
-{"id":55,"drugName":"FUROSEMIDE 20MG TAB - Lasix"},
-{"id":56,"drugName":"FUROSEMIDE 40MG TAB - Lasix"},
-{"id":57,"drugName":"GABAPENTIN 300MG CAP - Neurotin"},
-{"id":58,"drugName":"GLIMEPIRIDE 2MG TAB - Amaryl"},
-{"id":59,"drugName":"GLIPIZIDE ER 5MG TAB - Glucotrol xl"},
-{"id":60,"drugName":"GLIPIZIDE ER 10MG TAB - Glucotrol xl"},
-{"id":61,"drugName":"HUMALOG MIX 75-25 KWIKPEN 3 ML"},
-{"id":62,"drugName":"HYDROCHLOROTHIAZIDE 12.5MG CAP - Hydrodiuril"},
-{"id":63,"drugName":"HYDROCHLOROTHIAZIDE 25MG TAB - Hydrodiuril"},
-{"id":64,"drugName":"HYDROCODONE / ACETAMINOPHEN 5/500 TAB - Vicodin"},
-{"id":65,"drugName":"HYDROCODONE / ACETAMINOPHEN 7.5/750 TAB - Vicodin es"},
-{"id":66,"drugName":"HYDROCORTISONE 2.5% CREAM - Hytone"},
-{"id":67,"drugName":"IBUPROFEN 600MG TAB - Motrin"},
-{"id":68,"drugName":"IBUPROFEN 800MG TAB - Motrin"},
-{"id":69,"drugName":"JANUVIA 100MG TAB"},
-{"id":70,"drugName":"LAMOTRIGINE 25MG TAB - Lamictal"},
-{"id":71,"drugName":"LANSOPRAZOLE 30MG CAP - Prevacid"},
-{"id":72,"drugName":"LANTUS SOLOSTAR 100 UNITS/ML - 3ML"},
-{"id":73,"drugName":"LATANOPROST 0.005% DROPS - Xalatan"},
-{"id":74,"drugName":"LEVOTHYROXINE 50MCG - Synthroid"},
-{"id":75,"drugName":"LEVOTHYROXINE 100MCG - Synthroid"},
-{"id":76,"drugName":"LISINOPRIL 10MG TAB - Zestril"},
-{"id":77,"drugName":"LISINOPRIL 20MG TAB - Zestril"},
-{"id":78,"drugName":"LISINOPRIL/HCTZ 20/12.5MG - Zestoretic"},
-{"id":79,"drugName":"LOESTRIN 24 FE TAB"},
-{"id":80,"drugName":"LOSARTAN 50MG TAB - Cozaar"},
-{"id":81,"drugName":"LOVAZA CAP"},
-{"id":82,"drugName":"LYRICA 50MG CAP"},
-{"id":83,"drugName":"MELOXICAM 7.5MG TAB - Mobic"},
-{"id":84,"drugName":"METFORMIN ER 500MG TAB - Glucophage xr"},
-{"id":85,"drugName":"METFORMIN HCL 500 MG TABLET - Glucophage"},
-{"id":86,"drugName":"METFORMIN HCL 1,000 MG TABLET - Glucophage"},
-{"id":87,"drugName":"METOPROLOL XL 50MG TAB - Toprol xl"},
-{"id":88,"drugName":"METOPROLOL 50MG TAB - Lopressor"},
-{"id":89,"drugName":"METRONIDAZOLE 500MG TAB - Flagyl"},
-{"id":90,"drugName":"MONTELUKAST SOD 10 MG TABLET - Singulair"},
-{"id":91,"drugName":"MUPIROCIN OINTMENT - Bactroban"},
-{"id":92,"drugName":"NABUMETONE 500MG MG TAB - Relafen"},
-{"id":93,"drugName":"NAMENDA 10MG TAB"},
-{"id":94,"drugName":"NAPROXEN 500MG TAB - Naprosyn"},
-{"id":95,"drugName":"NASONEX INHALER"},
-{"id":96,"drugName":"NEXIUM 40MG CAP"},
-{"id":97,"drugName":"NIFEDIPINE ER 30MG TAB - Procardia xl"},
-{"id":98,"drugName":"NITROFURANTOIN MONO 100MG CAP - Macrobid"},
-{"id":99,"drugName":"NOVOLOG MIX 70-30 FLEXPEN SYRN 3 ML"},
-{"id":100,"drugName":"OLANZAPINE 5MG TAB - Zyprexa"},
-{"id":101,"drugName":"OMEPRAZOLE 20MG CAP - Prilosec"},
-{"id":102,"drugName":"ORTHO TRI CYCLEN LO TAB"},
-{"id":103,"drugName":"OXYCODONE / ACETAMINOPHEN 5/325MG TAB - Percocet"},
-{"id":104,"drugName":"PANTOPRAZOLE 40MG TAB - Protonix"},
-{"id":105,"drugName":"PAROXETINE 20MG TAB - Paxil"},
-{"id":106,"drugName":"PENICILLIN -VK 500MG TAB"},
-{"id":107,"drugName":"PHENYTOIN SOD EXT 100 MG CAP - Dilantin"},
-{"id":108,"drugName":"PIOGLITAZONE 15MG TAB - Actos"},
-{"id":109,"drugName":"PIOGLITAZONE 30MG TAB - Actos"},
-{"id":110,"drugName":"POTASSIUM 20MEQ TAB - K-dur"},
-{"id":111,"drugName":"PRAVASTATIN 20MG TAB - Pravachol"},
-{"id":112,"drugName":"PREDNISONE 10MG TAB"},
-{"id":113,"drugName":"PREDNISONE 20MG TAB"},
-{"id":114,"drugName":"PREMARIN 0.625MG TAB"},
-{"id":115,"drugName":"PROVENTIL HFA INHALER"},
-{"id":116,"drugName":"QUETIAPINE 100MG TAB - Seroquel"},
-{"id":117,"drugName":"QUINAPRIL 10MG TAB - Accupril"},
-{"id":118,"drugName":"RAMIPRIL 5MG CAP - Altace"},
-{"id":119,"drugName":"RANITIDINE 150MG TAB - Zantac"},
-{"id":120,"drugName":"RISPERIDONE 1MG TAB - Risperdal"},
-{"id":121,"drugName":"SERTRALINE 50MG TAB - Zoloft"},
-{"id":122,"drugName":"SERTRALINE 100MG TAB - Zoloft"},
-{"id":123,"drugName":"SIMVASTATIN 20MG TAB - Zocor"},
-{"id":124,"drugName":"SIMVASTATIN 40MG TAB - Zocor"},
-{"id":125,"drugName":"SPIRIVA 18MCG HANDIHALER"},
-{"id":126,"drugName":"STRATTERA 18MG CAP"},
-{"id":127,"drugName":"SULFAMETH/TRIMETH DS TAB - Bactrim ds"},
-{"id":128,"drugName":"SUMATRIPTAN 100MG TAB - Imitrex"},
-{"id":129,"drugName":"SYNTHROID 0.1MG TAB"},
-{"id":130,"drugName":"TAMSULOSIN 0.4MG CAP - Flomax"},
-{"id":131,"drugName":"TERBINAFINE 250MG TAB - Lamisil"},
-{"id":132,"drugName":"TERCONAZOLE 0.8% VAGINAL CREAM - Terazol"},
-{"id":133,"drugName":"TOPIRAMATE 50MG TAB - Topamax"},
-{"id":134,"drugName":"TRAMADOL 50MG TAB - Ultram"},
-{"id":135,"drugName":"TRAZODONE 50MG TAB - Desyrel"},
-{"id":136,"drugName":"TRI-SPRINTEC TAB - Ortho tri-cyclen"},
-{"id":137,"drugName":"TRIAMTERENE / HCTZ 37.5MG TAB - Maxzide"},
-{"id":138,"drugName":"TRICOR 145MG TAB"},
-{"id":139,"drugName":"TRUVADA TAB"},
-{"id":140,"drugName":"VALACYCLOVIR 500MG TAB - Valtrex"},
-{"id":141,"drugName":"VENLAFAXINE XR 75MG CAP - Effexor xr"},
-{"id":142,"drugName":"VENTOLIN HFA INHALER"},
-{"id":143,"drugName":"VIAGRA 100MG TAB"},
-{"id":144,"drugName":"VITAMIN D 50,000 CAP"},
-{"id":145,"drugName":"VYTORIN 10/20MG TAB"},
-{"id":146,"drugName":"WARFARIN 5MG TAB - Coumadin"},
-{"id":147,"drugName":"YAZ TAB"},
-{"id":148,"drugName":"ZETIA 10MG TAB"},
-{"id":149,"drugName":"ZOLPIDEM 10MG TAB - Ambien"},
-{"id":150,"drugName":"ZOLPIDEM CR 12.5MG TAB - Ambien cr"}]
+[
+  {
+    "id": 1,
+    "drugName": "ABILIFY 10MG TAB"
+  },
+  {
+    "id": 2,
+    "drugName": "ACETAMINOPHEN WITH CODEINE 30MG TAB - Tylenol with codeine"
+  },
+  {
+    "id": 3,
+    "drugName": "ACTONEL 35MG TAB"
+  },
+  {
+    "id": 4,
+    "drugName": "ADVAIR DISKUS 250/50 INH"
+  },
+  {
+    "id": 5,
+    "drugName": "ALBUTEROL 0.083% INHAL SOLN - Proventil"
+  },
+  {
+    "id": 6,
+    "drugName": "ALENDRONATE 70MG TAB - Fosamax"
+  },
+  {
+    "id": 7,
+    "drugName": "ALLOPURINOL 100MG TAB - Zyloprim"
+  },
+  {
+    "id": 8,
+    "drugName": "ALPRAZOLAM 0.5MG TAB - Xanax"
+  },
+  {
+    "id": 9,
+    "drugName": "AMLODIPINE 10MG TAB - Norvasc"
+  },
+  {
+    "id": 10,
+    "drugName": "AMOX TR-K CLV 875-125 MG TAB - Augmentin"
+  },
+  {
+    "id": 11,
+    "drugName": "AMOXICILLIN 500MG CAP - Amoxil"
+  },
+  {
+    "id": 12,
+    "drugName": "AMOXICILLIN 400MG/5ML SUSP - Amoxil"
+  },
+  {
+    "id": 13,
+    "drugName": "AMPHETAMINE MIX SALT XR 10MG CAP - Adderall xr"
+  },
+  {
+    "id": 14,
+    "drugName": "ATENOLOL 25MG TAB - Tenormin"
+  },
+  {
+    "id": 15,
+    "drugName": "ATENOLOL 50MG TAB - Tenormin"
+  },
+  {
+    "id": 16,
+    "drugName": "ATORVASTATIN 10MG TAB - Lipitor"
+  },
+  {
+    "id": 17,
+    "drugName": "ATORVASTATIN 20MG TAB - Lipitor"
+  },
+  {
+    "id": 18,
+    "drugName": "AVAPRO 150MG TAB"
+  },
+  {
+    "id": 19,
+    "drugName": "AVELOX 400MG TAB"
+  },
+  {
+    "id": 20,
+    "drugName": "AZITHROMYCIN 250MG TAB - Zithromycin"
+  },
+  {
+    "id": 21,
+    "drugName": "AZITHROMYCIN 100MG/5ML SUSP - Zithromycin"
+  },
+  {
+    "id": 22,
+    "drugName": "BENICAR 20MG TAB"
+  },
+  {
+    "id": 23,
+    "drugName": "BONIVA 150MG TAB"
+  },
+  {
+    "id": 24,
+    "drugName": "BUPROPION SR 150MG TAB - Wellbutrin sr"
+  },
+  {
+    "id": 25,
+    "drugName": "CARVEDILOL 6.25MG TAB - Coreg"
+  },
+  {
+    "id": 26,
+    "drugName": "CELEBREX 200MG CAP"
+  },
+  {
+    "id": 27,
+    "drugName": "CEPHALEXIN 500MG CAP - Keflex"
+  },
+  {
+    "id": 28,
+    "drugName": "CHANTIX 1MG TAB"
+  },
+  {
+    "id": 29,
+    "drugName": "CIALIS 10MG TAB"
+  },
+  {
+    "id": 30,
+    "drugName": "CIPROFLOXACIN 500MG TAB - Cipro"
+  },
+  {
+    "id": 31,
+    "drugName": "CITALOPRAM 20MG TAB - Celexa"
+  },
+  {
+    "id": 32,
+    "drugName": "CLONAZEPAM 1MG TAB - Klonopin"
+  },
+  {
+    "id": 33,
+    "drugName": "CLONIDINE 0.1MG TAB - Catapres"
+  },
+  {
+    "id": 34,
+    "drugName": "CLOPIDOGREL 75MG TAB - Plavix"
+  },
+  {
+    "id": 35,
+    "drugName": "CLOTRIMAZOLE/BETAM CREAM - Lotrisone"
+  },
+  {
+    "id": 36,
+    "drugName": "COMBIVENT INHALER"
+  },
+  {
+    "id": 37,
+    "drugName": "CRESTOR 10MG TAB"
+  },
+  {
+    "id": 38,
+    "drugName": "CYCLOBENZAPRINE 10MG TAB - Flexeril"
+  },
+  {
+    "id": 39,
+    "drugName": "CYMBALTA 30MG CAP"
+  },
+  {
+    "id": 40,
+    "drugName": "DIGOXIN 0.125MG TAB - Lanoxin"
+  },
+  {
+    "id": 41,
+    "drugName": "DIOVAN 80MG CAP"
+  },
+  {
+    "id": 42,
+    "drugName": "DIVALPROEX 500MG EC TAB - Depakote"
+  },
+  {
+    "id": 43,
+    "drugName": "DONEPEZIL 5MG TAB - Aricept"
+  },
+  {
+    "id": 44,
+    "drugName": "DOXYCYCLINE 100MG CAP - Vibramycin"
+  },
+  {
+    "id": 45,
+    "drugName": "ENALAPRIL 10MG TAB - Vasotec"
+  },
+  {
+    "id": 46,
+    "drugName": "ESCITALOPRAM 10MG TAB - Lexapro"
+  },
+  {
+    "id": 47,
+    "drugName": "EVISTA 60MG TAB"
+  },
+  {
+    "id": 48,
+    "drugName": "FEXOFENADINE 180MG TAB - Allegra"
+  },
+  {
+    "id": 49,
+    "drugName": "FINASTERIDE 5MG TAB - Proscar"
+  },
+  {
+    "id": 50,
+    "drugName": "FLOVENT HFA 110MCG INHALER"
+  },
+  {
+    "id": 51,
+    "drugName": "FLUCONAZOLE 150MG TAB - Diflucan"
+  },
+  {
+    "id": 52,
+    "drugName": "FLUOXETINE 20MG CAP - Prozac"
+  },
+  {
+    "id": 53,
+    "drugName": "FLUTICASONE 50MCG NASAL - Flonase"
+  },
+  {
+    "id": 54,
+    "drugName": "FOLIC ACID 1MG TAB"
+  },
+  {
+    "id": 55,
+    "drugName": "FUROSEMIDE 20MG TAB - Lasix"
+  },
+  {
+    "id": 56,
+    "drugName": "FUROSEMIDE 40MG TAB - Lasix"
+  },
+  {
+    "id": 57,
+    "drugName": "GABAPENTIN 300MG CAP - Neurotin"
+  },
+  {
+    "id": 58,
+    "drugName": "GLIMEPIRIDE 2MG TAB - Amaryl"
+  },
+  {
+    "id": 59,
+    "drugName": "GLIPIZIDE ER 5MG TAB - Glucotrol xl"
+  },
+  {
+    "id": 60,
+    "drugName": "GLIPIZIDE ER 10MG TAB - Glucotrol xl"
+  },
+  {
+    "id": 61,
+    "drugName": "HUMALOG MIX 75-25 KWIKPEN 3 ML"
+  },
+  {
+    "id": 62,
+    "drugName": "HYDROCHLOROTHIAZIDE 12.5MG CAP - Hydrodiuril"
+  },
+  {
+    "id": 63,
+    "drugName": "HYDROCHLOROTHIAZIDE 25MG TAB - Hydrodiuril"
+  },
+  {
+    "id": 64,
+    "drugName": "HYDROCODONE / ACETAMINOPHEN 5/500 TAB - Vicodin"
+  },
+  {
+    "id": 65,
+    "drugName": "HYDROCODONE / ACETAMINOPHEN 7.5/750 TAB - Vicodin es"
+  },
+  {
+    "id": 66,
+    "drugName": "HYDROCORTISONE 2.5% CREAM - Hytone"
+  },
+  {
+    "id": 67,
+    "drugName": "IBUPROFEN 600MG TAB - Motrin"
+  },
+  {
+    "id": 68,
+    "drugName": "IBUPROFEN 800MG TAB - Motrin"
+  },
+  {
+    "id": 69,
+    "drugName": "JANUVIA 100MG TAB"
+  },
+  {
+    "id": 70,
+    "drugName": "LAMOTRIGINE 25MG TAB - Lamictal"
+  },
+  {
+    "id": 71,
+    "drugName": "LANSOPRAZOLE 30MG CAP - Prevacid"
+  },
+  {
+    "id": 72,
+    "drugName": "LANTUS SOLOSTAR 100 UNITS/ML - 3ML"
+  },
+  {
+    "id": 73,
+    "drugName": "LATANOPROST 0.005% DROPS - Xalatan"
+  },
+  {
+    "id": 74,
+    "drugName": "LEVOTHYROXINE 50MCG - Synthroid"
+  },
+  {
+    "id": 75,
+    "drugName": "LEVOTHYROXINE 100MCG - Synthroid"
+  },
+  {
+    "id": 76,
+    "drugName": "LISINOPRIL 10MG TAB - Zestril"
+  },
+  {
+    "id": 77,
+    "drugName": "LISINOPRIL 20MG TAB - Zestril"
+  },
+  {
+    "id": 78,
+    "drugName": "LISINOPRIL/HCTZ 20/12.5MG - Zestoretic"
+  },
+  {
+    "id": 79,
+    "drugName": "LOESTRIN 24 FE TAB"
+  },
+  {
+    "id": 80,
+    "drugName": "LOSARTAN 50MG TAB - Cozaar"
+  },
+  {
+    "id": 81,
+    "drugName": "LOVAZA CAP"
+  },
+  {
+    "id": 82,
+    "drugName": "LYRICA 50MG CAP"
+  },
+  {
+    "id": 83,
+    "drugName": "MELOXICAM 7.5MG TAB - Mobic"
+  },
+  {
+    "id": 84,
+    "drugName": "METFORMIN ER 500MG TAB - Glucophage xr"
+  },
+  {
+    "id": 85,
+    "drugName": "METFORMIN HCL 500 MG TABLET - Glucophage"
+  },
+  {
+    "id": 86,
+    "drugName": "METFORMIN HCL 1,000 MG TABLET - Glucophage"
+  },
+  {
+    "id": 87,
+    "drugName": "METOPROLOL XL 50MG TAB - Toprol xl"
+  },
+  {
+    "id": 88,
+    "drugName": "METOPROLOL 50MG TAB - Lopressor"
+  },
+  {
+    "id": 89,
+    "drugName": "METRONIDAZOLE 500MG TAB - Flagyl"
+  },
+  {
+    "id": 90,
+    "drugName": "MONTELUKAST SOD 10 MG TABLET - Singulair"
+  },
+  {
+    "id": 91,
+    "drugName": "MUPIROCIN OINTMENT - Bactroban"
+  },
+  {
+    "id": 92,
+    "drugName": "NABUMETONE 500MG MG TAB - Relafen"
+  },
+  {
+    "id": 93,
+    "drugName": "NAMENDA 10MG TAB"
+  },
+  {
+    "id": 94,
+    "drugName": "NAPROXEN 500MG TAB - Naprosyn"
+  },
+  {
+    "id": 95,
+    "drugName": "NASONEX INHALER"
+  },
+  {
+    "id": 96,
+    "drugName": "NEXIUM 40MG CAP"
+  },
+  {
+    "id": 97,
+    "drugName": "NIFEDIPINE ER 30MG TAB - Procardia xl"
+  },
+  {
+    "id": 98,
+    "drugName": "NITROFURANTOIN MONO 100MG CAP - Macrobid"
+  },
+  {
+    "id": 99,
+    "drugName": "NOVOLOG MIX 70-30 FLEXPEN SYRN 3 ML"
+  },
+  {
+    "id": 100,
+    "drugName": "OLANZAPINE 5MG TAB - Zyprexa"
+  },
+  {
+    "id": 101,
+    "drugName": "OMEPRAZOLE 20MG CAP - Prilosec"
+  },
+  {
+    "id": 102,
+    "drugName": "ORTHO TRI CYCLEN LO TAB"
+  },
+  {
+    "id": 103,
+    "drugName": "OXYCODONE / ACETAMINOPHEN 5/325MG TAB - Percocet"
+  },
+  {
+    "id": 104,
+    "drugName": "PANTOPRAZOLE 40MG TAB - Protonix"
+  },
+  {
+    "id": 105,
+    "drugName": "PAROXETINE 20MG TAB - Paxil"
+  },
+  {
+    "id": 106,
+    "drugName": "PENICILLIN -VK 500MG TAB"
+  },
+  {
+    "id": 107,
+    "drugName": "PHENYTOIN SOD EXT 100 MG CAP - Dilantin"
+  },
+  {
+    "id": 108,
+    "drugName": "PIOGLITAZONE 15MG TAB - Actos"
+  },
+  {
+    "id": 109,
+    "drugName": "PIOGLITAZONE 30MG TAB - Actos"
+  },
+  {
+    "id": 110,
+    "drugName": "POTASSIUM 20MEQ TAB - K-dur"
+  },
+  {
+    "id": 111,
+    "drugName": "PRAVASTATIN 20MG TAB - Pravachol"
+  },
+  {
+    "id": 112,
+    "drugName": "PREDNISONE 10MG TAB"
+  },
+  {
+    "id": 113,
+    "drugName": "PREDNISONE 20MG TAB"
+  },
+  {
+    "id": 114,
+    "drugName": "PREMARIN 0.625MG TAB"
+  },
+  {
+    "id": 115,
+    "drugName": "PROVENTIL HFA INHALER"
+  },
+  {
+    "id": 116,
+    "drugName": "QUETIAPINE 100MG TAB - Seroquel"
+  },
+  {
+    "id": 117,
+    "drugName": "QUINAPRIL 10MG TAB - Accupril"
+  },
+  {
+    "id": 118,
+    "drugName": "RAMIPRIL 5MG CAP - Altace"
+  },
+  {
+    "id": 119,
+    "drugName": "RANITIDINE 150MG TAB - Zantac"
+  },
+  {
+    "id": 120,
+    "drugName": "RISPERIDONE 1MG TAB - Risperdal"
+  },
+  {
+    "id": 121,
+    "drugName": "SERTRALINE 50MG TAB - Zoloft"
+  },
+  {
+    "id": 122,
+    "drugName": "SERTRALINE 100MG TAB - Zoloft"
+  },
+  {
+    "id": 123,
+    "drugName": "SIMVASTATIN 20MG TAB - Zocor"
+  },
+  {
+    "id": 124,
+    "drugName": "SIMVASTATIN 40MG TAB - Zocor"
+  },
+  {
+    "id": 125,
+    "drugName": "SPIRIVA 18MCG HANDIHALER"
+  },
+  {
+    "id": 126,
+    "drugName": "STRATTERA 18MG CAP"
+  },
+  {
+    "id": 127,
+    "drugName": "SULFAMETH/TRIMETH DS TAB - Bactrim ds"
+  },
+  {
+    "id": 128,
+    "drugName": "SUMATRIPTAN 100MG TAB - Imitrex"
+  },
+  {
+    "id": 129,
+    "drugName": "SYNTHROID 0.1MG TAB"
+  },
+  {
+    "id": 130,
+    "drugName": "TAMSULOSIN 0.4MG CAP - Flomax"
+  },
+  {
+    "id": 131,
+    "drugName": "TERBINAFINE 250MG TAB - Lamisil"
+  },
+  {
+    "id": 132,
+    "drugName": "TERCONAZOLE 0.8% VAGINAL CREAM - Terazol"
+  },
+  {
+    "id": 133,
+    "drugName": "TOPIRAMATE 50MG TAB - Topamax"
+  },
+  {
+    "id": 134,
+    "drugName": "TRAMADOL 50MG TAB - Ultram"
+  },
+  {
+    "id": 135,
+    "drugName": "TRAZODONE 50MG TAB - Desyrel"
+  },
+  {
+    "id": 136,
+    "drugName": "TRI-SPRINTEC TAB - Ortho tri-cyclen"
+  },
+  {
+    "id": 137,
+    "drugName": "TRIAMTERENE / HCTZ 37.5MG TAB - Maxzide"
+  },
+  {
+    "id": 138,
+    "drugName": "TRICOR 145MG TAB"
+  },
+  {
+    "id": 139,
+    "drugName": "TRUVADA TAB"
+  },
+  {
+    "id": 140,
+    "drugName": "VALACYCLOVIR 500MG TAB - Valtrex"
+  },
+  {
+    "id": 141,
+    "drugName": "VENLAFAXINE XR 75MG CAP - Effexor xr"
+  },
+  {
+    "id": 142,
+    "drugName": "VENTOLIN HFA INHALER"
+  },
+  {
+    "id": 143,
+    "drugName": "VIAGRA 100MG TAB"
+  },
+  {
+    "id": 144,
+    "drugName": "VITAMIN D 50,000 CAP"
+  },
+  {
+    "id": 145,
+    "drugName": "VYTORIN 10/20MG TAB"
+  },
+  {
+    "id": 146,
+    "drugName": "WARFARIN 5MG TAB - Coumadin"
+  },
+  {
+    "id": 147,
+    "drugName": "YAZ TAB"
+  },
+  {
+    "id": 148,
+    "drugName": "ZETIA 10MG TAB"
+  },
+  {
+    "id": 149,
+    "drugName": "ZOLPIDEM 10MG TAB - Ambien"
+  },
+  {
+    "id": 150,
+    "drugName": "ZOLPIDEM CR 12.5MG TAB - Ambien cr"
+  }
+]
