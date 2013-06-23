@@ -196,6 +196,7 @@ function setDrugMap(code){
 }
 
 function bindClick(pharmacy, prices){
+  google.maps.event.clearInstanceListeners(pharmacy.marker);
   google.maps.event.addListener(pharmacy.marker, 'click', function(e){
     var content = '';
     if(pharmacy.data.name){
