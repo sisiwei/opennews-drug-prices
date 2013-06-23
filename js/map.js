@@ -33,6 +33,21 @@ function setupMap(){
     }
   };
   map = new google.maps.Map(document.getElementById("map"), mapOptions);
+  // add MapBox tiles
+  var osmMapLayer = new google.maps.ImageMapType({
+    getTileUrl: function(coord, zoom) {
+      return "http://c.tiles.mapbox.com/v3/examples.map-szwdot65/"
+			zoom + "/" + coord.x + "/" + coord.y + ".png";
+		},
+		tileSize: new google.maps.Size(256, 256),
+		isPng: true,
+		alt: "MapBox",
+		name: "MapBox",
+		maxZoom: 19
+  });
+  map.mapTypes.set('MapBox',osmMapLayer);
+  map.setMapTypeId( 'MapBox' );
+
   infowindow = new google.maps.InfoWindow();
   pharmacies = { };
   $.getJSON("js/namesandids.json", function(data){
@@ -62,7 +77,8 @@ function parsePrice(price){
 }
 
 function setDrugMap(code){
-  // clear old markers
+  // clear old markers and information
+  infowindow.close();
   for(id in pharmacies){
     pharmacies[id].marker.setOptions({
       fillOpacity: 0,
