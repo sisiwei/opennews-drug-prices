@@ -28,6 +28,7 @@ html, body, #map{
 	font-size: 12px;
 	-webkit-appearance: none;
 	border-radius: 5px;
+	background: url(../images/down-arrow.png) 97% 50% no-repeat;;
 }
 
 p { font-size: 14px; }
