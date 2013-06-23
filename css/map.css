@@ -12,8 +12,7 @@ html, body, #map{
 }
 
 #topbar{
-  height: 70%;
-  width: 200px;
+  width: 410px;
   position: absolute;
   top: 20px;
   left: 10%;

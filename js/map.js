@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
   setupMap();
-
+  createDropdown();
   
   
 })
@@ -25,7 +25,11 @@ function setupMap(){
 }
 
 function createDropdown(){
-
-
-
+  $.getJSON("js/drug-list.json", function(data){
+    var htmlDump = [];
+    $.each(data, function(k,v){
+      htmlDump.push("<option value='" + v.id + "'>" + v.drugName + "</option>");
+    })
+    $('#drug-drop-down').html(htmlDump.join(''));
+  });
 }
