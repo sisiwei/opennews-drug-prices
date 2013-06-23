@@ -31,6 +31,14 @@ html, body, #map{
 	background: url(../images/down-arrow.png) 97% 50% no-repeat;;
 }
 
+#datasource {
+      font-size: 10px; 
+}
+
+#datasource-container {
+      margin-top: 1px;
+}
+
 p { font-size: 13px; }
 
 h2 {
@@ -43,6 +51,11 @@ h2 {
 h3 {
 	font-size: 18px;
 	margin-bottom: 3px;
+}
+h4
+{
+	font-size: 14px;
+	margin-bottom: 2px;
 }
 
 .gm-style-iw h3 {
