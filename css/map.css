@@ -32,11 +32,12 @@ html, body, #map{
 }
 
 #datasource {
-      font-size: 10px; 
+  font-size: 11px; 
 }
 
-#datasource-container {
-      margin-top: 1px;
+.datasource-container {
+  margin-top: 20px;
+  border-top: 1px solid #888;
 }
 
 p, ul { font-size: 13px; }	
@@ -64,10 +65,6 @@ h4
 	font-family: "Helevetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.gm-style-iw p {
-	margin: 0 0 10px 0;
-}
-
 .highest {
 	background-color: #99000D;
 	color: white;
@@ -84,4 +81,23 @@ h4
 	border-radius: 5px;
 	width: 60px;
 	margin: 0 0 5px 0;
+}
+
+.gm-style-iw p {
+	margin: 0 0 1px 0;
+}
+
+.gm-style-iw .price {
+	margin: 10px 0 0 0;
+}
+
+.gm-style-iw .data-link {
+	margin: 14px 0 12px 0;
+	padding: 2px 0 0 0;
+	border-top: 1px solid #ddd;
+}
+
+.gm-style-iw .data-link a {
+	text-decoration: none;
+	font-size: 11px;
 }

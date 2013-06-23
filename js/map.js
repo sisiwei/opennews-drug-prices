@@ -147,11 +147,11 @@ function setDrugMap(code){
       extra = "Generic ";
     }
 
-    minInfo.setContent("<h4 class='lowest'>LOWEST</h4><h3>" + drugmin.pharmacy.data.name + "</h3><p>" + drugmin.pharmacy.data.phone + "</p><p>" + extra + "Price: <strong>" + drugmin.printPrice + "</strong></p>");
+    minInfo.setContent("<h4 class='lowest'>LOWEST</h4><h3>" + drugmin.pharmacy.data.name + "</h3><p>" + drugmin.pharmacy.data.phone + "</p><p class='price'>" + extra + "Price: <strong>" + drugmin.printPrice + "</strong></p><p class='data-link'><a target='_blank' href='https://apps.health.ny.gov/pdpw/Pharmacy/Price/PriceList.action?sedRegNum=" + drugmin.pharmacy.data.id + "&calledFrom=searchPharmacy'>Price data from NYDOH</a></p>");
     minInfo.setPosition(drugmin.pharmacy.marker.getCenter());
     minInfo.open(map);
 
-    maxInfo.setContent("<h4 class='highest'>HIGHEST</h4><h3>" + drugmax.pharmacy.data.name + "</h3><p>" + drugmax.pharmacy.data.phone + "</p><p>" + extra + "Price: <strong>" + drugmax.printPrice + "</strong></p>");
+    maxInfo.setContent("<h4 class='highest'>HIGHEST</h4><h3>" + drugmax.pharmacy.data.name + "</h3><p>" + drugmax.pharmacy.data.phone + "</p><p class='price'>" + extra + "Price: <strong>" + drugmax.printPrice + "</strong></p><p class='data-link'><a target='_blank' href='https://apps.health.ny.gov/pdpw/Pharmacy/Price/PriceList.action?sedRegNum=" + drugmax.pharmacy.data.id + "&calledFrom=searchPharmacy'>Price data from NYDOH</a></p>");
     maxInfo.setPosition(drugmax.pharmacy.marker.getCenter());
     maxInfo.open(map);
 
