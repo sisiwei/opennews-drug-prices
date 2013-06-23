@@ -140,11 +140,18 @@ function setDrugMap(code){
       }
     }
     
-    minInfo.setContent("<h4 class='lowest'>LOWEST</h4><h3>" + drugmin.pharmacy.data.name + "</h3><p>Price: <strong>" + drugmin.printPrice + "</strong></p>");
+    var extra; 
+    if (isBrandPrice){
+      extra = "Brand ";
+    } else {
+      extra = "Generic ";
+    }
+
+    minInfo.setContent("<h4 class='lowest'>LOWEST</h4><h3>" + drugmin.pharmacy.data.name + "</h3><p>" + extra + "Price: <strong>" + drugmin.printPrice + "</strong></p>");
     minInfo.setPosition(drugmin.pharmacy.marker.getCenter());
     minInfo.open(map);
 
-    maxInfo.setContent("<h4 class='highest'>HIGHEST</h4><h3>" + drugmax.pharmacy.data.name + "</h3><p>Price: <strong>" + drugmax.printPrice + "</strong></p>");
+    maxInfo.setContent("<h4 class='highest'>HIGHEST</h4><h3>" + drugmax.pharmacy.data.name + "</h3><p>" + extra + "Price: <strong>" + drugmax.printPrice + "</strong></p>");
     maxInfo.setPosition(drugmax.pharmacy.marker.getCenter());
     maxInfo.open(map);
 
