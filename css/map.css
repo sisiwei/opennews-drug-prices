@@ -15,7 +15,13 @@ html, body, #map{
   width: 410px;
   position: absolute;
   top: 20px;
-  left: 10%;
+  left: 3%;
   background-color: white;
   z-index: 10;
+}
+
+#drug-drop-down {
+	padding: 10px;
+	font-size: 14px;
+	-webkit-appearance: none;
 }

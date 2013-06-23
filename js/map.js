@@ -10,9 +10,15 @@ function setupMap(){
   google.maps.visualRefresh=true;
   var mapOptions = {
     center: new google.maps.LatLng(40.78343, -73.96624),
-    zoom: 11,
+    zoom: 12,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
-    streetViewControl: false
+    streetViewControl: false,
+    zoomControlOptions: {
+        position: google.maps.ControlPosition.TOP_RIGHT
+    },
+    panControlOptions: {
+        position: google.maps.ControlPosition.TOP_RIGHT
+    }
   };
   var map = new google.maps.Map(document.getElementById("map"), mapOptions);
   $.getJSON("js/namesandids.json", function(data){
