@@ -120,7 +120,7 @@ function setDrugMap(code){
           };
         }
         
-      } else if (pharma_dict.g_price){
+      } else if (!isBrandPrice && pharma_dict.g_price){
         prices.push(pharma_dict);
         price_raw.push(parsePrice(pharma_dict.g_price));
         if(!drugmin || parsePrice(pharma_dict.g_price) < drugmin.price){
