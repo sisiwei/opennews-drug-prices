@@ -1,13 +1,17 @@
 import urllib2
 import json
 import pprint
+import time
 from HTMLParser import HTMLParser
 
 pp = pprint.PrettyPrinter(indent=4)
+scrape_counter = 0
 
 drugs = []
 drug = {}
 row_count = 0
+
+all_drugs = {}
 
 class DrugParser(HTMLParser):
   main_table_count = 0
@@ -27,7 +31,7 @@ class DrugParser(HTMLParser):
       drug = {}
     if len(attrs) == 2:
       if attrs[0][0] == 'width' and attrs[1][1] == 'webcasttable':
-          print "something"
+          #print "something"
           DrugParser.found_table = True
 
   def handle_endtag(self, tag):
@@ -42,7 +46,7 @@ class DrugParser(HTMLParser):
       row_count += 1
       if row_count > 0:
         drugs.append(drug)
-      print drug
+      #print drug
       
   def handle_data(self, data):
     global drug
@@ -62,15 +66,23 @@ class DrugParser(HTMLParser):
 
       DrugParser.col_count += 1
 
-    
-drugurl = "https://apps.health.ny.gov/pdpw/Pharmacy/Price/PriceList.action?sedRegNum=19404&calledFrom=searchPharmacy"
-data = urllib2.urlopen(drugurl)
+with open("namesandids.json", "r") as f:
+  all_pharmacies = json.loads(f.read())
 
-parser = DrugParser()
-parser.feed(data.read())
+for pharmacy in all_pharmacies:
+  time.sleep(1)
+  pharma_id = pharmacy["id"] 
+  drugurl = "https://apps.health.ny.gov/pdpw/Pharmacy/Price/PriceList.action?sedRegNum=" + pharma_id + "&calledFrom=searchPharmacy"
+  data = urllib2.urlopen(drugurl)
 
-with open("drug.json", "w") as f:
-  json.dump(drugs, f)
+  drugs = []
+  drug = {}
+  row_count = 0
+  parser = DrugParser()
+  parser.feed(data.read())
+  scrape_counter += 1
+  print scrape_counter
+  all_drugs[pharma_id] = drugs
 
-
-
+with open("all_drugs.json", "w") as f:
+  json.dump(all_drugs, f, indent = 4)
