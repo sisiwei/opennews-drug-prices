@@ -44,3 +44,9 @@ h3 {
 	font-size: 18px;
 	margin-bottom: 3px;
 }
+
+.gm-style-iw h3 {
+	font-size: 17px;
+	margin-top: 0px;
+	font-family: "Helevetica Neue", Helvetica, Arial, sans-serif;
+}
