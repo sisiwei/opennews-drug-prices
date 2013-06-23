@@ -215,6 +215,9 @@ function bindClick(pharmacy, prices){
     if(prices.g_price){
       content += '<strong>Generic</strong>: ' + prices.g_price;
     }
+
+    content += "<p class='data-link'><a target='_blank' href='https://apps.health.ny.gov/pdpw/Pharmacy/Price/PriceList.action?sedRegNum=" + pharmacy.data.id + "&calledFrom=searchPharmacy'>Price data from NYDOH</a></p>"
+
     infowindow.setContent(content);
     infowindow.setPosition( pharmacy.marker.getCenter() );
     infowindow.open(map);
