@@ -1,0 +1,40 @@
+html, body, #map{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+#map{
+  height: 100%;
+}
+
+#topbar {
+	width: 410px;
+	position: absolute;
+	left: 3%;
+	background-color: white;
+	z-index: 10;
+	padding: 10px;
+	opacity: 0.9;
+	border: 1px solid #ddd;
+	border-top: none;
+}
+
+#drug-drop-down {
+	padding: 8px;
+	font-size: 12px;
+	-webkit-appearance: none;
+	border-radius: 5px;
+}
+
+p { font-size: 14px; }
+
+h2 {
+  margin: 10px 0px 0px;
+  padding: 0 0 2px 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-bottom: 1px solid #888;
+}

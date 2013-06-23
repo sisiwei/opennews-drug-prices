@@ -3,44 +3,20 @@
   <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="css/map.css">
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-    <style type="text/css">
-html, body, #map{
-  padding: 0;
-  margin: 0;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  font-family: Arial, sans-serif;
-}
-#map{
-  height: 80%;
-}
-#topbar{
-  height: 20%;
-}
-    </style>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/map.js"></script>
   </head>
   <body>
-    <div id="topbar"></div>
+    <div id="topbar">
+      <h2>NYC Prescription Drug Prices</h2>
+      <p>Description here</p>
+
+      <h3>Select a drug</h3>
+      <select id="drug-drop-down">
+      </select>
+    </div>
     <div id="map"></div>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script type="text/javascript">
-      google.maps.visualRefresh=true;
-      var mapOptions = {
-        center: new google.maps.LatLng(40.78343, -73.96624),
-        zoom: 11,
-        mapTypeId: google.maps.MapTypeId.ROADMAP,
-        streetViewControl: false
-      };
-      var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-      $.getJSON("js/namesandids.json", function(data){
-        for(var p=0;p<data.length;d++){
-          new google.maps.Marker({
-            position: new google.maps.LatLng( data[p].lat * 1.0, data[p].lng * 1.0 )
-          });
-        }
-      });
-    </script>
   </body>
 </html>
