@@ -46,7 +46,29 @@ h3 {
 }
 
 .gm-style-iw h3 {
-	font-size: 17px;
+	font-size: 15px;
 	margin-top: 0px;
 	font-family: "Helevetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.gm-style-iw p {
+	margin: 0 0 10px 0;
+}
+
+.highest {
+	background-color: #99000D;
+	color: white;
+	padding: 6px;
+	border-radius: 5px;
+	width: 62px;
+	margin: 0 0 5px 0;
+}
+
+.lowest {
+	background-color: #FCBBA1;
+	color: white;
+	padding: 6px;
+	border-radius: 5px;
+	width: 60px;
+	margin: 0 0 5px 0;
 }

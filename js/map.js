@@ -16,7 +16,7 @@ $(document).ready(function(){
 
 })
 
-var alldrugdata, pharmacies, map, infowindow, histogramData;
+var alldrugdata, pharmacies, map, infowindow, minInfo, maxInfo, histogramData;
 
 function setupMap(){
   google.maps.visualRefresh=true;
@@ -48,6 +48,8 @@ function setupMap(){
   map.setMapTypeId( 'MapBox' );
 
   infowindow = new google.maps.InfoWindow();
+  minInfo = new google.maps.InfoWindow();
+  maxInfo = new google.maps.InfoWindow();
   pharmacies = { };
   $.getJSON("js/namesandids.json", function(data){
     for(var p=0;p<data.length;p++){
@@ -78,6 +80,8 @@ function parsePrice(price){
 function setDrugMap(code){
   // clear old markers and information
   infowindow.close();
+  maxInfo.close();
+  minInfo.close();
   for(id in pharmacies){
     pharmacies[id].marker.setOptions({
       fillOpacity: 0,
@@ -104,13 +108,15 @@ function setDrugMap(code){
         if(!drugmin || parsePrice(pharma_dict.price) < drugmin.price){
           drugmin = {
             pharmacy: pharmacies[ pharma_dict.p_id + "" ],
-            price: parsePrice(pharma_dict.price)
+            price: parsePrice(pharma_dict.price),
+            printPrice: pharma_dict.price
           };
         }
         if(!drugmax || parsePrice(pharma_dict.price) > drugmax.price){
           drugmax = {
             pharmacy: pharmacies[ pharma_dict.p_id + "" ],
-            price: parsePrice(pharma_dict.price)
+            price: parsePrice(pharma_dict.price),
+            printPrice: pharma_dict.price
           };
         }
         
@@ -120,23 +126,32 @@ function setDrugMap(code){
         if(!drugmin || parsePrice(pharma_dict.g_price) < drugmin.price){
           drugmin = {
             pharmacy: pharmacies[ pharma_dict.p_id + "" ],
-            price: parsePrice(pharma_dict.g_price)
+            price: parsePrice(pharma_dict.g_price),
+            printPrice: pharma_dict.g_price
           };
         }
         if(!drugmax || parsePrice(pharma_dict.g_price) > drugmax.price){
           drugmax = {
             pharmacy: pharmacies[ pharma_dict.p_id + "" ],
-            price: parsePrice(pharma_dict.g_price)
+            price: parsePrice(pharma_dict.g_price),
+            printPrice: pharma_dict.g_price
           };
         }
       }
     }
     
+    minInfo.setContent("<h4 class='lowest'>LOWEST</h4><h3>" + drugmin.pharmacy.data.name + "</h3><p>Price: <strong>" + drugmin.printPrice + "</strong></p>");
+    minInfo.setPosition(drugmin.pharmacy.marker.getCenter());
+    minInfo.open(map);
+
+    maxInfo.setContent("<h4 class='highest'>HIGHEST</h4><h3>" + drugmax.pharmacy.data.name + "</h3><p>Price: <strong>" + drugmax.printPrice + "</strong></p>");
+    maxInfo.setPosition(drugmax.pharmacy.marker.getCenter());
+    maxInfo.open(map);
 
     var colorize = calculateDeviations(price_raw, 4);
     for (var i = 0; i < prices.length; i++) {
       bindClick( pharmacies[ prices[i].p_id + "" ], prices[i] );
-      console.log(colorize(price_raw[i]));
+      //console.log(colorize(price_raw[i]));
       pharmacies[ prices[i].p_id + "" ].marker.setOptions({
         fillColor: "#" + colorize(price_raw[i]),
         strokeColor: "#" + colorize(price_raw[i]),
@@ -195,6 +210,8 @@ function bindClick(pharmacy, prices){
     infowindow.setContent(content);
     infowindow.setPosition( pharmacy.marker.getCenter() );
     infowindow.open(map);
+    maxInfo.close();
+    minInfo.close();
   });
 }
 
