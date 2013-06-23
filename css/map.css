@@ -39,3 +39,8 @@ h2 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   border-bottom: 1px solid #888;
 }
+
+h3 {
+	font-size: 18px;
+	margin-bottom: 3px;
+}

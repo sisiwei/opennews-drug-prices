@@ -6,7 +6,7 @@ $(document).ready(function(){
   
 })
 
-var alldrugdata, pharmacies;
+var alldrugdata, pharmacies, map, infowindow;
 
 function setupMap(){
   google.maps.visualRefresh=true;
@@ -22,8 +22,8 @@ function setupMap(){
         position: google.maps.ControlPosition.TOP_RIGHT
     }
   };
-  var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-  var infowindow = new google.maps.InfoWindow();
+  map = new google.maps.Map(document.getElementById("map"), mapOptions);
+  infowindow = new google.maps.InfoWindow();
   pharmacies = { };
   $.getJSON("js/namesandids.json", function(data){
     for(var p=0;p<data.length;p++){
@@ -125,4 +125,37 @@ function createDropdown(){
       setDrugMap( $('#drug-drop-down').val() );
     });
   });
+}
+
+function calculateDeviations(array){
+  var array = [2, 3, 4, 6, 2, 5, 7, 2, 4, 5];
+  var within_std_of = 1;
+
+  function calculate(a) {
+    var r = {mean: 0, variance: 0, deviation: 0}, t = a.length;
+    for(var m, s = 0, l = t; l--; s += a[l]);
+    for(m = r.mean = s / t, l = t, s = 0; l--; s += Math.pow(a[l] - m, 2));
+    return r.deviation = Math.sqrt(r.variance = s / t), r;
+  }
+
+  var summary = calculate(array);
+  createBuckets(summary, 4);
+      
+  var color = [];
+
+  function createBuckets(summary, deviations){
+    var mean = summary.mean,
+        deviation = summary.deviation;
+
+    for(i=0; i<deviations; i++) {
+
+      
+    }
+
+
+
+
+  }
+
+
 }
