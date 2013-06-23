@@ -13,7 +13,7 @@ $(document).ready(function(){
   
 })
 
-var alldrugdata, pharmacies, map, infowindow;
+var alldrugdata, pharmacies, map, infowindow, histogramData;
 
 function setupMap(){
   google.maps.visualRefresh=true;
@@ -187,17 +187,31 @@ function calculateDeviations(array, deviations){
       minusDev.min = mean - deviation * (i+1);
       minusDev.max = mean - deviation * i;
       minusDev.color = colorArray[3-i];
+      minusDev.count = 0
       allBuckets.push(minusDev);
 
       var addDev = {};
       addDev.min = mean + deviation * i;
       addDev.max = mean + deviation * (i+1);
       addDev.color = colorArray[4+i];
+      addDev.count = 0;
       allBuckets.push(addDev);
     }
 
+    // For each number in the array...
+    $.each(array, function(k,v){
+      // ...go through each bucket to categorize it, for the histogram.
+      $.each(allBuckets, function(key, val){
+        if (v < val.max && v >= val.min){
+          val.count++;
+        }
+      })
+    })
+
+    histogramData = allBuckets;
+
     return function(num){
-      var selectedColor = ""
+      var selectedColor = "";
       $.each(allBuckets, function(k,v){
         if (num < v.max && num >= v.min){
           selectedColor = v.color;
