@@ -72,6 +72,26 @@ function setDrugMap(code){
       clickable: false
     });
   }
+
+  var isBrandPrice = ($('input[name=drug_type]:checked', '#drug_type').val() == "brand_price");
+  console.log(isBrandPrice);
+
+  $.getJSON("js/drug/drug" + code + ".json", function (json) {
+
+    var prices = [];
+    for (var i = 0; i < json.length; i++) {
+      var pharma_dict = json[i];
+      if (isBrandPrice && pharma_dict.price) {
+        prices.push(pharma_dict);
+      } else if (pharma_dict.g_price){
+        prices.push(pharma_dict);
+      }
+    }
+    console.log(prices);
+
+
+  });
+
   
   var pricedata = alldrugdata[ code ];
   var min = Math.min( parsePrice(pricedata[0].price) || parsePrice(pricedata[0].g_price), parsePrice(pricedata[0].g_price) || parsePrice(pricedata[0].price) );
