@@ -227,7 +227,11 @@ function createDropdown(){
   $.getJSON("js/drug-list.json", function(data){
     var htmlDump = [];
     $.each(data, function(k,v){
-      htmlDump.push("<option value='" + v.id + "'>" + v.drugName + "</option>");
+      if (k == 3){
+        htmlDump.push("<option value='" + v.id + "' selected>" + v.drugName + "</option>");
+      } else {
+        htmlDump.push("<option value='" + v.id + "'>" + v.drugName + "</option>");
+      }
     })
     $('#drug-drop-down').html(htmlDump.join(''));
     $('#drug-drop-down').on('change', function(e){
