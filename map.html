@@ -24,6 +24,7 @@ html, body, #map{
   <body>
     <div id="topbar"></div>
     <div id="map"></div>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript">
       google.maps.visualRefresh=true;
       var mapOptions = {
@@ -33,6 +34,13 @@ html, body, #map{
         streetViewControl: false
       };
       var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+      $.getJSON("js/namesandids.json", function(data){
+        for(var p=0;p<data.length;d++){
+          new google.maps.Marker({
+            position: new google.maps.LatLng( data[p].lat * 1.0, data[p].lng * 1.0 )
+          });
+        }
+      });
     </script>
   </body>
 </html>
