@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <style type="text/css">
+html, body, #map{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+.chart {
+  stroke: white;
+  fill: steelblue;
+}
+rect {
+  stroke : blue;
+}
+
+circle {
+  stroke : red;
+}
+    </style>
+  </head>
+  <body>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript">
+
+      function Scale(_prices, _num_buckets) {
+        this.raw = _prices;
+        this.num_buckets = _num_buckets;
+        this.price_buckets = [];
+        
+        var max = d3.max(this.raw), min = d3.min(this.raw);
+        console.log("max : " + max +  "min : " + min);
+      }
+
+      d3.json("js/all_drugs_clean.json", function (data) {
+
+          var d_id = "100";
+
+          var brand_prices = data[d_id].map(function (e) {
+            if (e["price"]) {
+              return Number(e["price"].replace(/[^0-9\.]+/g,""));
+            }
+            return 0;
+          });
+
+          var generic_prices = data[d_id].map(function (e) {
+            if (e["g_price"]) {
+              return Number(e["g_price"].replace(/[^0-9\.]+/g,""));
+              }
+              return 0;
+          });
+
+
+          console.log(brand_prices);
+          console.log(generic_prices);
+
+          
+          brand_prices = brand_prices.sort(d3.ascending)
+
+          var chart = d3.select("body").append("svg")
+          .attr("class", "chart")
+          .attr("width", brand_prices.length)
+          .attr("height", brand_prices.length);
+
+          var y = d3.scale.linear()
+          .domain([d3.min(brand_prices), d3.max(brand_prices)])
+          .range([0, 500]);
+
+          var y2 = d3.scale.linear()
+          .domain([d3.min(generic_prices), d3.max(generic_prices)])
+          .range([0, 500]);
+
+          chart.selectAll("rect")
+          .data(brand_prices)
+          .enter().append("rect")
+          .attr("x", function (d, i) { return i; })
+          .attr("width", 1)
+          .attr("y", y.invert)
+          .attr("height", 2)
+          
+          chart.selectAll("circle")
+          .data(brand_prices)
+          .enter().append("circle")
+          .attr("cx", function (d, i) { return i; })
+          .attr("r", 2)
+          .attr("cy", y2.invert);
+
+
+
+
+      });
+
+                  
+
+    </script>
+  </body>
+</html>

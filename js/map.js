@@ -3,11 +3,13 @@ $(document).ready(function(){
   setupMap();
   createDropdown();
 
+  /*
   var array = [2, 3, 4, 6, 2, 5, 7, 2, 4, 5];
   var colorize = calculateDeviations(array, 4)
   for(i=0; i<array.length; i++) {
     //console.log(colorize(array[i]));
   }
+  */
 
 })
 
@@ -45,10 +47,7 @@ function setupMap(){
         marker: mark
       };
     }
-    $.getJSON("js/all_drugs_clean.json", function(data){
-      alldrugdata = data;
-      setDrugMap("4");
-    });
+    setDrugMap("4");
   });
 }
 
@@ -60,10 +59,6 @@ function parsePrice(price){
 }
 
 function setDrugMap(code){
-  if(!alldrugdata){
-    // doesn't work until drug data is fully loaded
-    return;
-  }
   // clear old markers
   for(id in pharmacies){
     pharmacies[id].marker.setOptions({
@@ -72,33 +67,71 @@ function setDrugMap(code){
       clickable: false
     });
   }
-  
-  var pricedata = alldrugdata[ code ];
-  var min = Math.min( parsePrice(pricedata[0].price) || parsePrice(pricedata[0].g_price), parsePrice(pricedata[0].g_price) || parsePrice(pricedata[0].price) );
-  var max = Math.max( parsePrice(pricedata[0].price) || parsePrice(pricedata[0].g_price), parsePrice(pricedata[0].g_price) || parsePrice(pricedata[0].price) );
-  for(var a=1;a<pricedata.length;a++){
-    if(!pricedata[a].price && ! pricedata[a].g_price){
-      continue;
+
+  var isBrandPrice = ($('input[name=drug_type]:checked', '#drug_type').val() == "brand_price");
+
+  $.getJSON("js/drug/drug" + code + ".json", function (json) {
+
+    var prices = [];
+    var price_raw = []
+    for (var i = 0; i < json.length; i++) {
+      var pharma_dict = json[i];
+      if (isBrandPrice && pharma_dict.price) {
+        prices.push(pharma_dict);
+        price_raw.push(parsePrice(pharma_dict.price));
+        console.log(parsePrice(pharma_dict.price));
+      } else if (pharma_dict.g_price){
+        prices.push(pharma_dict);
+        price_raw.push(parsePrice(pharma_dict.g_price));
+      }
     }
-    min = Math.min(min, parsePrice(pricedata[a].price) || parsePrice(pricedata[a].g_price));
-    min = Math.min(min, parsePrice(pricedata[a].g_price) || parsePrice(pricedata[a].price));
-    max = Math.max(max, parsePrice(pricedata[a].price) || parsePrice(pricedata[a].g_price));
-    max = Math.max(max, parsePrice(pricedata[a].g_price) || parsePrice(pricedata[a].price));
-  }
-  for(var a=0;a<pricedata.length;a++){
-    var id = pricedata[a].p_id;
-    var mymin = parsePrice(pricedata[a].g_price) || parsePrice(pricedata[a].price);
-    mymin = Math.min(mymin, parsePrice(pricedata[a].price) || parsePrice(pricedata[a].g_price));
-    var rvalue = Math.floor(127 + 127 * (Math.log(mymin) - Math.log(min)) / ( Math.log(max) - Math.log(min) ));
-    bindClick( pharmacies[ id + "" ], pricedata[a] );
-    pharmacies[ id + "" ].marker.setOptions({
-      fillColor: "rgb(" + rvalue + ",0,0)",
-      strokeColor: "rgb(" + rvalue + ",0,0)",
-      fillOpacity: 0.7,
-      strokeOpacity: 0.7,
-      clickable: true
-    });
-  }
+    
+
+    var colorize = calculateDeviations(price_raw, 4);
+    var pricedata = json;
+    for (var i = 0; i < prices.length; i++) {
+      bindClick( pharmacies[ prices[i].p_id + "" ], prices[i] );
+      console.log(colorize(price_raw[i]));
+      pharmacies[ prices[i].p_id + "" ].marker.setOptions({
+        fillColor: "#" + colorize(price_raw[i]),
+        strokeColor: "#" + colorize(price_raw[i]),
+        fillOpacity: 0.7,
+        strokeOpacity: 0.7,
+        clickable: true
+      });
+    }
+    /*
+
+    var min = Math.min( parsePrice(pricedata[0].price) || parsePrice(pricedata[0].g_price), parsePrice(pricedata[0].g_price) || parsePrice(pricedata[0].price) );
+    var max = Math.max( parsePrice(pricedata[0].price) || parsePrice(pricedata[0].g_price), parsePrice(pricedata[0].g_price) || parsePrice(pricedata[0].price) );
+    for(var a=1;a<pricedata.length;a++){
+      if(!pricedata[a].price && ! pricedata[a].g_price){
+        continue;
+      }
+      min = Math.min(min, parsePrice(pricedata[a].price) || parsePrice(pricedata[a].g_price));
+      min = Math.min(min, parsePrice(pricedata[a].g_price) || parsePrice(pricedata[a].price));
+      max = Math.max(max, parsePrice(pricedata[a].price) || parsePrice(pricedata[a].g_price));
+      max = Math.max(max, parsePrice(pricedata[a].g_price) || parsePrice(pricedata[a].price));
+    }
+    for(var a=0;a<pricedata.length;a++){
+      var id = pricedata[a].p_id;
+      var mymin = parsePrice(pricedata[a].g_price) || parsePrice(pricedata[a].price);
+      mymin = Math.min(mymin, parsePrice(pricedata[a].price) || parsePrice(pricedata[a].g_price));
+      var rvalue = Math.floor(127 + 127 * (Math.log(mymin) - Math.log(min)) / ( Math.log(max) - Math.log(min) ));
+      bindClick( pharmacies[ id + "" ], pricedata[a] );
+      pharmacies[ id + "" ].marker.setOptions({
+        fillColor: "rgb(" + rvalue + ",0,0)",
+        strokeColor: "rgb(" + rvalue + ",0,0)",
+        fillOpacity: 0.7,
+        strokeOpacity: 0.7,
+        clickable: true
+      });
+    }
+    */
+
+  });
+
+  
 }
 
 function bindClick(pharmacy, prices){
@@ -133,8 +166,6 @@ function createDropdown(){
 }
 
 function calculateDeviations(array, deviations){
-  var within_std_of = 1;
-
   function calculate(a) {
     var r = {mean: 0, variance: 0, deviation: 0}, t = a.length;
     for(var m, s = 0, l = t; l--; s += a[l]);
@@ -182,8 +213,6 @@ function calculateDeviations(array, deviations){
         allBuckets.push(lastAddDev);
       }
     }
-
-
 
     // For each number in the array...
     $.each(array, function(k,v){
