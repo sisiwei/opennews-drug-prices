@@ -39,7 +39,7 @@ html, body, #map{
       margin-top: 1px;
 }
 
-p { font-size: 13px; }
+p, ul { font-size: 13px; }
 
 h2 {
   margin: 10px 0px 0px;

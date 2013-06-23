@@ -147,11 +147,11 @@ function setDrugMap(code){
       extra = "Generic ";
     }
 
-    minInfo.setContent("<h4 class='lowest'>LOWEST</h4><h3>" + drugmin.pharmacy.data.name + "</h3><p>" + extra + "Price: <strong>" + drugmin.printPrice + "</strong></p>");
+    minInfo.setContent("<h4 class='lowest'>LOWEST</h4><h3>" + drugmin.pharmacy.data.name + "</h3><p>" + drugmin.pharmacy.data.phone + "</p><p>" + extra + "Price: <strong>" + drugmin.printPrice + "</strong></p>");
     minInfo.setPosition(drugmin.pharmacy.marker.getCenter());
     minInfo.open(map);
 
-    maxInfo.setContent("<h4 class='highest'>HIGHEST</h4><h3>" + drugmax.pharmacy.data.name + "</h3><p>" + extra + "Price: <strong>" + drugmax.printPrice + "</strong></p>");
+    maxInfo.setContent("<h4 class='highest'>HIGHEST</h4><h3>" + drugmax.pharmacy.data.name + "</h3><p>" + drugmax.pharmacy.data.phone + "</p><p>" + extra + "Price: <strong>" + drugmax.printPrice + "</strong></p>");
     maxInfo.setPosition(drugmax.pharmacy.marker.getCenter());
     maxInfo.open(map);
 
@@ -207,7 +207,7 @@ function bindClick(pharmacy, prices){
   google.maps.event.addListener(pharmacy.marker, 'click', function(e){
     var content = '';
     if(pharmacy.data.name){
-      content += '<h3>' + pharmacy.data.name + '</h3>';
+      content += '<h3>' + pharmacy.data.name + '</h3><p>' + pharmacy.data.phone + '</p>';
     }
     if(prices.price){
       content += '<strong>Brand Price</strong>: ' + prices.price;
