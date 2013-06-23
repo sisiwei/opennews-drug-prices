@@ -33,6 +33,10 @@ for drug_id in range(1,151):
 
     if "price" in drug or "g_price" in drug:
       drug_arr.append(drug)
+
+  with open("../js/drug/drug{}.json".format(str(drug_id)), "w") as f:
+    json.dump(drug_arr, f)
+
   all_drugs_clean[str(drug_id)] = drug_arr
 
 #pp.pprint(all_drugs_clean)
