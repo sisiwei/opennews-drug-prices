@@ -6,9 +6,9 @@ $(document).ready(function(){
   var array = [2, 3, 4, 6, 2, 5, 7, 2, 4, 5];
   var colorize = calculateDeviations(array, 4)
   for(i=0; i<array.length; i++) {
-    console.log(colorize(array[i]));
+    //console.log(colorize(array[i]));
   }
-  
+
 })
 
 var alldrugdata, pharmacies, map, infowindow, histogramData;
@@ -165,7 +165,25 @@ function calculateDeviations(array, deviations){
       addDev.color = colorArray[4+i];
       addDev.count = 0;
       allBuckets.push(addDev);
+
+      if (i == deviations-1){
+        var lastMinusDev = {};
+        lastMinusDev.min = -9999;
+        lastMinusDev.max = minusDev.min;
+        lastMinusDev.color = minusDev.color
+        lastMinusDev.count = 0
+        allBuckets.push(lastMinusDev);
+
+        var lastAddDev = {};
+        lastAddDev.min = addDev.max;
+        lastAddDev.max = 10000000000;
+        lastAddDev.color = addDev.color;
+        lastAddDev.count = 0;
+        allBuckets.push(lastAddDev);
+      }
     }
+
+
 
     // For each number in the array...
     $.each(array, function(k,v){
