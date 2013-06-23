@@ -11,9 +11,17 @@
   <body>
     <div id="topbar">
       <h2>NYC Prescription Drug Prices</h2>
-      <p>"The New York State Board of Pharmacy publishes an annual list of the <a href="https://apps.health.ny.gov/pdpw/DrugInfo/DrugInfo.action">150 most frequently prescribed drug</a>s, in the most common quantities. The New York State Department of Health collects retail price information on these drugs from pharmacies that participate in the Medicaid program and from pharmacies that submit their retail price information directly to the Department of Health." - <a href="https://apps.health.ny.gov/pdpw/SearchDrugs/Home.action">New York State Department of Health</a></p>
+      <p>
+        Among over 600 pharmacies in New York City, how does their prices for perscription drugs vary?
+        <p>
+        This tool finds
+        <ul type="circle">
+          <li>lowest and highest price drugstore</li>
+          <li>locations of pharmacies color-coded by price</li>
+        </ul>
+        </p>
 
-      <h3>Select a drug</h3>
+      <h3>Find prescription drug</h3>
       <select id="drug-drop-down"></select>
 
       <h3>Select drug type</h3>
@@ -23,6 +31,17 @@
       </form>
       <div class="histogram-container">
       </div>
+      <div class="datasource-container">
+     
+      <h4>Data source</h4>
+        <div id="datasource">
+          The New York State Board of Pharmacy publishes an annual list of the <a href="https://apps.health.ny.gov/pdpw/DrugInfo/DrugInfo.action">150 most frequently prescribed drugs</a>.
+          
+        The New York State Department of Health collects retail price information on these drugs from pharmacies that participate in the Medicaid program and from pharmacies that submit their retail price information directly to the Department of Health. 
+        <div id="NYSLink">&raquo; <a href="https://apps.health.ny.gov/pdpw/SearchDrugs/Home.action">NYS Department of Health's Drug Price Search Tool</a></div></p>
+        </div>
+      </div> 
+      
     </div>
     <div id="map"></div>
   </body>
