@@ -3,6 +3,9 @@ $(document).ready(function(){
   setupMap();
   createDropdown();
 
+  $('input[name=drug_type]').change( function() {
+      setDrugMap( $('#drug-drop-down').val() );
+  });
   /*
   var array = [2, 3, 4, 6, 2, 5, 7, 2, 4, 5];
   var colorize = calculateDeviations(array, 4)
