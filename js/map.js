@@ -36,14 +36,13 @@ function setupMap(){
   // add MapBox tiles
   var osmMapLayer = new google.maps.ImageMapType({
     getTileUrl: function(coord, zoom) {
-      return "http://c.tiles.mapbox.com/v3/examples.map-szwdot65/"
-			zoom + "/" + coord.x + "/" + coord.y + ".png";
-		},
-		tileSize: new google.maps.Size(256, 256),
-		isPng: true,
-		alt: "MapBox",
-		name: "MapBox",
-		maxZoom: 19
+      return "http://c.tiles.mapbox.com/v3/examples.map-szwdot65/" + zoom + "/" + coord.x + "/" + coord.y + ".png";
+	},
+	tileSize: new google.maps.Size(256, 256),
+	isPng: true,
+	alt: "MapBox",
+	name: "MapBox",
+	maxZoom: 19
   });
   map.mapTypes.set('MapBox',osmMapLayer);
   map.setMapTypeId( 'MapBox' );
@@ -92,22 +91,49 @@ function setDrugMap(code){
   $.getJSON("js/drug/drug" + code + ".json", function (json) {
 
     var prices = [];
-    var price_raw = []
+    var price_raw = [];
+
+    var drugmin = null;
+    var drugmax = null;
+    
     for (var i = 0; i < json.length; i++) {
       var pharma_dict = json[i];
       if (isBrandPrice && pharma_dict.price) {
         prices.push(pharma_dict);
         price_raw.push(parsePrice(pharma_dict.price));
-        console.log(parsePrice(pharma_dict.price));
+        if(!drugmin || parsePrice(pharma_dict.price) < drugmin.price){
+          drugmin = {
+            pharmacy: pharmacies[ pharma_dict.p_id + "" ],
+            price: parsePrice(pharma_dict.price)
+          };
+        }
+        if(!drugmax || parsePrice(pharma_dict.price) > drugmax.price){
+          drugmax = {
+            pharmacy: pharmacies[ pharma_dict.p_id + "" ],
+            price: parsePrice(pharma_dict.price)
+          };
+        }
+        
       } else if (pharma_dict.g_price){
         prices.push(pharma_dict);
         price_raw.push(parsePrice(pharma_dict.g_price));
+        if(!drugmin || parsePrice(pharma_dict.g_price) < drugmin.price){
+          drugmin = {
+            pharmacy: pharmacies[ pharma_dict.p_id + "" ],
+            price: parsePrice(pharma_dict.g_price)
+          };
+        }
+        if(!drugmax || parsePrice(pharma_dict.g_price) > drugmax.price){
+          drugmax = {
+            pharmacy: pharmacies[ pharma_dict.p_id + "" ],
+            price: parsePrice(pharma_dict.g_price)
+          };
+        }
       }
     }
     
 
     var colorize = calculateDeviations(price_raw, 4);
-    var pricedata = json;
     for (var i = 0; i < prices.length; i++) {
       bindClick( pharmacies[ prices[i].p_id + "" ], prices[i] );
       console.log(colorize(price_raw[i]));
@@ -119,6 +145,7 @@ function setDrugMap(code){
         clickable: true
       });
     }
+    
     /*
 
     var min = Math.min( parsePrice(pricedata[0].price) || parsePrice(pricedata[0].g_price), parsePrice(pricedata[0].g_price) || parsePrice(pricedata[0].price) );
