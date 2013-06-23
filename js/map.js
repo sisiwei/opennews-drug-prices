@@ -2,7 +2,12 @@ $(document).ready(function(){
 
   setupMap();
   createDropdown();
-  
+
+  var array = [2, 3, 4, 6, 2, 5, 7, 2, 4, 5];
+  var colorize = calculateDeviations(array, 4)
+  for(i=0; i<array.length; i++) {
+    console.log(colorize(array[i]));
+  }
   
 })
 
@@ -127,8 +132,7 @@ function createDropdown(){
   });
 }
 
-function calculateDeviations(array){
-  var array = [2, 3, 4, 6, 2, 5, 7, 2, 4, 5];
+function calculateDeviations(array, deviations){
   var within_std_of = 1;
 
   function calculate(a) {
@@ -139,23 +143,38 @@ function calculateDeviations(array){
   }
 
   var summary = calculate(array);
-  createBuckets(summary, 4);
       
-  var color = [];
+  createBuckets = function(summary, deviations){
+    var colorArray = ["FFF5F0","FEE0D2","FCBBA1","FC9272","FB6A4A","EF3B2C","CB181D","99000D"];
 
-  function createBuckets(summary, deviations){
     var mean = summary.mean,
-        deviation = summary.deviation;
+        deviation = summary.deviation,
+        allBuckets = [];
 
     for(i=0; i<deviations; i++) {
+      var minusDev = {};
+      minusDev.min = mean - deviation * (i+1);
+      minusDev.max = mean - deviation * i;
+      minusDev.color = colorArray[3-i];
+      allBuckets.push(minusDev);
 
-      
+      var addDev = {};
+      addDev.min = mean + deviation * i;
+      addDev.max = mean + deviation * (i+1);
+      addDev.color = colorArray[4+i];
+      allBuckets.push(addDev);
     }
 
-
-
-
+    return function(num){
+      var selectedColor = ""
+      $.each(allBuckets, function(k,v){
+        if (num < v.max && num >= v.min){
+          selectedColor = v.color;
+        }
+      })
+      return selectedColor;
+    };
   }
 
-
+  return createBuckets(summary, deviations);
 }
