@@ -202,7 +202,7 @@ function bindClick(pharmacy, prices){
       content += '<h3>' + pharmacy.data.name + '</h3>';
     }
     if(prices.price){
-      content += '<strong>Price</strong>: ' + prices.price;
+      content += '<strong>Brand Price</strong>: ' + prices.price;
     }
     if(prices.g_price){
       content += '<strong>Generic</strong>: ' + prices.g_price;
